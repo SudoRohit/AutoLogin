@@ -4,7 +4,13 @@
 
 You need to add Selenium IDE Extension to your browser.
 
-Then you can record your actions, save them and can run the automation whenever you want.
+![Screenshot from 2022-10-12 15-03-23](https://user-images.githubusercontent.com/54389006/195306955-180d49df-64f7-46bc-b60e-377f594342d9.png)
+
+
+Open the extension and click on record button to record the actions which you want to automate and then save the file. Your automation is ready. Now you can run the automation whenever you want.
+
+![Screenshot from 2022-10-12 15-16-42](https://user-images.githubusercontent.com/54389006/195310164-c93bc1b2-5183-4e58-87bd-8f7a5bcdd7ad.png)
+
 
 You can also insert the commands manually.
 
@@ -14,11 +20,15 @@ You can use various languages to use selenium. Here we will be using python.
 
 You need to install selenium package. You can use pip to install the package.
 
+```
+pip install -U selenium
+```
+
 Then you need to download the web driver for your browser. Here we used Firefox browser, so we downloaded Gecko Driver.
 
 Now open any text editor and type your code.
 
-Following is the code for automating login page.
+#### Following is the code for automating login page.
 
 ```
 from selenium import webdriver
@@ -57,3 +67,5 @@ if __name__ == '__main__':
 
     browser.login(username='USERNAME', password='PASSWORD')
 ```
+
+Run the code to perform your automation.
