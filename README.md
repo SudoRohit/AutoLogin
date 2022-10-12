@@ -16,7 +16,7 @@ You need to install selenium package. You can use pip to install the package.
 
 Then you need to download the web driver for your browser. Here we used Firefox browser, so we downloaded Gecko Driver.
 
-Now open any text editor type your code.
+Now open any text editor and type your code.
 
 Following is the code for automating login page.
 
